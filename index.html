@@ -1,115 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-        <nav class="navbar container-sm  fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="static/img/png/Logo.png" alt="logo"></a>
-              <button  class="navbar-toggler bg-white rounded-circle p-2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-black "></span>
-              </button>
-              <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
+  <header>
+    <div class="container">
+      <nav class="navbar container-sm  fixed-top">
+        <div class="navbar_1 container-fluid">
+          <a class="navbar-brand" href="#"><img src="static/img/png/Logo.png" alt="logo"></a>
+          <button class="navbar-toggler bg-white rounded-circle p-2 " type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-black "></span>
+          </button>
+          <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-          </nav>
-          <div class="position-relative  z-1 ">
-            <div class="cart-div position-absolute"  style="top: 250px; left: -100px;">
-              <p class="p1 text-white">A place where </p>
-              <h1 class="h1_1 text-white lh-sm">A creative agency <br> for redemptive <br> brands</h1>
-              <p class="p2 text-white  lh-base">Anteelo is a leading strategic design firm that builds powerful digital <br> solutions for startups and enterprises.</p>
-              <p><a href="#" class="icon-text  link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                <svg width="20px"   viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z" fill="rgba(255, 215, 35, 1)"/>
-                </svg> Get in touch</a></p>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
           </div>
         </div>
-        <div class="header_img">
-          <img  src="static/img/png/Bitmap (1).png" alt="">
+      </nav>
+      <div class="position-relative  z-1 ">
+        <div class="cart-div position-absolute" style="top: 250px;">
+          <p class="p1 text-white">A place where </p>
+          <h1 class="h1_1 text-white lh-sm">A creative agency <br> for redemptive <br> brands</h1>
+          <p class="p2 text-white  lh-base">Anteelo is a leading strategic design firm that builds powerful digital <br>
+            solutions for startups and enterprises.</p>
+          <p><a href="#"
+              class="icon-text  link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+              <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z"
+                  fill="rgba(255, 215, 35, 1)" />
+              </svg> Get in touch
+            </a></p>
         </div>
-    </header>
-    <menu>
-      <div class="container">
+      </div>
+    </div>
+    <div class="header_img">
+      <img src="static/img/png/Bitmap (1).png" alt="">
+    </div>
+  </header>
+  <menu>
+    <div class="container">
       <div class="clent z-1">
-       <a href="#"><img src="static/img/png/16_Andrew-Porter-Logo.png" alt="img"></a>
-       <a href="#"><img src="static/img/png/17_Jalen-Rose-Leadership-Academy-Logo.png" alt="img"></a>
-       <a href="#"><img src="static/img/png/Wal.png" alt="img"></a>
-       <a href="#"><img src="static/img/png/Ideal.png" alt="img"></a>
-       <a href="#"><img src="static/img/png/PhalenLeadership.png" alt="img"></a>
+        <a href="#"><img src="static/img/png/16_Andrew-Porter-Logo.png" alt="img"></a>
+        <a href="#"><img src="static/img/png/17_Jalen-Rose-Leadership-Academy-Logo.png" alt="img"></a>
+        <a href="#"><img src="static/img/png/Wal.png" alt="img"></a>
+        <a href="#"><img src="static/img/png/Ideal.png" alt="img"></a>
+        <a href="#"><img src="static/img/png/PhalenLeadership.png" alt="img"></a>
       </div>
       <div class="card-1_main">
-      <div class="card-1 d-flex ">
-        <div class="card-1_left">
-          <p class="p1">What we do for you</p>
-          <p class="p3 lh-base ">Strategy. Design <br> Content. <span class="bg-warning-subtle text-warning-emphasis p-1">Technology</span> <br>
-            Development </p>
-            <p class="p1 p lh-base text-dark-50 mb-5">There’s no secret sauce, no wizard behind the curtain. What <br> makes Aerolab tick is an interdisciplinary team with a <br>s framework that fosters candid collaboration.</p>
-            <p><a href="#" class="a1 link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover "><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-              <svg width="20px"   viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z" fill="rgba(212, 214, 212, 1)"/>
-              </svg>  More know About us</a></p>
-        </div>
-        <div class="card-1_right bg-white text-dark ">
-          <p class="p7 lh-base ">With More than 10 Years of <br>  Knowledge and Expertise we <br> Design and Code Websites and <br> Apps, We Build Brands and Help <br> Them Succeed</p>
-          <div class="admin_img d-flex  align-items-center row-gap-0">
-            <img width="150px" src="static/img/png/Oval.png" alt="icon">
-            <div class="text_name d-flex flex-column gap-2">
-             <a href="#"><p class="p6">Genevieve Rodriquez</p></a>
-             <a href="#"><p class="p1 ">Founder & CEO, Webovio</p></a>
+        <div class="card-1 d-flex ">
+          <div class="card-1_left">
+            <p class="p1">What we do for you</p>
+            <p class="p3 lh-base ">Strategy. Design <br> Content. <span
+                class="bg-warning-subtle text-warning-emphasis p-1">Technology</span> <br>
+              Development </p>
+            <p class="p1 p lh-base text-dark-50 mb-5">There’s no secret sauce, no wizard behind the curtain. What <br>
+              makes Aerolab tick is an interdisciplinary team with a <br>s framework that fosters candid collaboration.
+            </p>
+            <p><a href="#"
+                class="a1 link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover ">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z"
+                    fill="rgba(212, 214, 212, 1)" />
+                </svg> More know About us
+              </a></p>
+          </div>
+          <div class="card-1_right bg-white text-dark ">
+            <p class="p7 lh-base ">With More than 10 Years of <br> Knowledge and Expertise we <br> Design and Code
+              Websites and <br> Apps, We Build Brands and Help <br> Them Succeed</p>
+            <div class="admin_img d-flex  align-items-center row-gap-0">
+              <img width="150px" src="static/img/png/Oval.png" alt="icon">
+              <div class="text_name d-flex flex-column gap-2">
+                <a href="#">
+                  <p class="p6">Genevieve Rodriquez</p>
+                </a>
+                <a href="#">
+                  <p class="p1 ">Founder & CEO, Webovio</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="border"></div>
+        <div class="border"></div>
 
       </div>
-    
+
+    </div>
+  </menu>
+  <main>
+    <div class="container">
+      <div class="card_1 d-flex ">
+        <div class="left">
+          <p class="p3 lh-base">We Have Some <br>
+            Awesomr Project.</p>
+        </div>
+        <div class="right">
+          <p class="p1 lh-lg">
+            Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the
+            industry's <br> standard dummy text ever since the 1500s,
+          </p>
+        </div>
       </div>
-    </menu>
-<main>
+      <div class="card_2">
+        <div class="left">
+          <img width="735px" height="550px" src="static/img/png/Bitmap (2).png" alt="img">
+          <div class="card_d bg-white ">
+            <p class="p8 lh-base">“In my history of working with trade show <br> vendors, I can honestly say that there
+              is not one <br> company that I've ever worked with that has <br> better service than Exhibit Systems.”</p>
+            <div class="admin_card d-flex align-items-center gap-4">
+              <img height="80px" src="static/img/png/Oval (1).png" alt="img">
+              <div class="admin_text">
+                <p class="p9">Angel Armstrong</p>
+                <p class="p1">Founder & CEO, Google</p>
+              </div>
+            </div>
 
-</main>
+          </div>
+        </div>
+        <div class="right">
+          <p class="p3 lh-base">The wall new <br>
+            Balenciaga.com</p>
+          <p class="p1 lh-base mb-3">This article is floated online with an aim to help you <br> find the best dvd
+            printing solution.</p>
+          <p class="p1 lh-base mb-5">Dvd printing is an important feature used by large <br> and small DVD production
+            houses to print <br> information on DVDs.</p>
+          <p><a href="#"
+              class="a1 link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-50-hover "><!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z"
+                  fill="rgba(212, 214, 212, 1)"></path>
+              </svg> See Case Study</a></p>
+        </div>
+      </div>
+      <div class="card_3">
+        <div class="right">
+          <p class="p3 lh-base">The wall new <br>
+            Balenciaga.com</p>
+          <p class="p1 lh-base mb-3">This article is floated online with an aim to help you <br> find the best dvd
+            printing solution.</p>
+          <p class="p1 lh-base mb-5">Dvd printing is an important feature used by large <br> and small DVD production
+            houses to print <br> information on DVDs.</p>
+          <p><a href="#"
+              class="a1 link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-50-hover "><!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z"
+                  fill="rgba(212, 214, 212, 1)"></path>
+              </svg> See Case Study</a></p>
+        </div>
+        <div class="left">
+          <img width="735px" height="550px" src="static/img/png/Bitmap (4).png" alt="img">
+          <div class="card_d bg-white ">
+            <p class="p8 lh-base">“Exhibit Systems is not a provider. They are not a <br> supplier. They are a partner
+              with expertise in <br> making trade shows effective.”</p>
+            <div class="admin_card d-flex align-items-center gap-4">
+              <img height="80px" src="static/img/png/Oval (3).png" alt="img">
+              <div class="admin_text">
+                <p class="p9">Eunice Oliver</p>
+                <p class="p1">Founder & CEO, Zeem</p>
+              </div>
+            </div>
 
+          </div>
+        </div>
+      </div>
+      <div class="card_2">
+        <div class="left">
+          <img width="735px" height="550px" src="static/img/png/Bitmap (3).png" alt="img">
+          <div class="card_d bg-white ">
+            <p class="p8 lh-base">“Exhibit Systems is not a provider. They are not a <br> supplier. They are a partner
+              with expertise in <br> making trade shows effective.”</p>
+            <div class="admin_card d-flex align-items-center gap-4">
+              <img height="80px" src="static/img/png/Oval (2).png" alt="img">
+              <div class="admin_text">
+                <p class="p9">Eunice Oliver</p>
+                <p class="p1">Founder & CEO, Zeem</p>
+              </div>
+            </div>
 
-    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+          </div>
+        </div>
+        <div class="right">
+          <p class="p3 lh-base">The wall new <br>
+            Balenciaga.com</p>
+          <p class="p1 lh-base mb-3">This article is floated online with an aim to help you <br> find the best dvd
+            printing solution.</p>
+          <p class="p1 lh-base mb-5">Dvd printing is an important feature used by large <br> and small DVD production
+            houses to print <br> information on DVDs.</p>
+          <p><a href="#"
+              class="a1 link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-50-hover "><!--?xml version="1.0" encoding="utf-8"?--><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg width="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.795 11.272L7.795 16.272C6.79593 16.8964 5.5 16.1782 5.5 15L5.5 5.00002C5.5 3.82186 6.79593 3.1036 7.795 3.72802L15.795 8.72802C16.735 9.31552 16.735 10.6845 15.795 11.272Z"
+                  fill="rgba(212, 214, 212, 1)"></path>
+              </svg> See Case Study</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main_card">
+      
+    </div>
+  </main>
+  
+  <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
