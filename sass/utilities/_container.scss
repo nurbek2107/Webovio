@@ -2,3 +2,27 @@
     max-width: 1111px;
     margin: 0px auto;
 }
+::-webkit-scrollbar {
+    width:0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:rgba(255, 255, 255, 0);
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #42404061; 
+    border-radius: 10px;  
+  }
+  .overflow {
+    display: flex;
+    align-items:center;
+    overflow-x: scroll;
+    width: 100%;
+    
+  }
+  .card_owerd{
+    width: 100%;
+    margin: 0 auto;
+  }

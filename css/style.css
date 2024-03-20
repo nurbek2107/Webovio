@@ -198,6 +198,7 @@ table {
 }
 .header_img img {
   width: 100%;
+  height: 811px;
   position: absolute;
   top: -10px;
 }
@@ -216,6 +217,7 @@ input {
 
 .p1 {
   font-size: 14px;
+  color: rgba(33, 56, 66, 0.6);
   font-family: "Poppins-400";
 }
 
@@ -224,6 +226,39 @@ input {
   margin-bottom: 50px;
   font-size: 14px;
   font-family: "Poppins-400";
+}
+
+.a1 {
+  font-family: "Poppins-600";
+}
+
+.p3 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-family: "Poppins-700";
+  color: rgb(77, 83, 60);
+}
+
+.p7 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-family: "Poppins-400-1";
+  color: rgb(77, 83, 60);
+  margin-bottom: 90px;
+}
+
+.border {
+  border-bottom: 20px solid gray;
+  position: relative;
+  top: 1700px;
+}
+
+.p6 {
+  font-size: 22px;
+  font-family: "Poppins-700";
+  color: rgb(77, 83, 60);
 }
 
 .h1_1 {
@@ -235,7 +270,68 @@ input {
   font-family: "Poppins-700";
 }
 
+menu {
+  position: relative;
+}
+menu .clent {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 1276px;
+  height: 227px;
+  position: absolute;
+  top: 700px;
+  box-shadow: 0.5px 32px 32px 0 rgba(0, 0, 0, 0.4470588235);
+  padding: 60px;
+}
+menu .card-1 {
+  width: 1209px;
+  height: 644px;
+  position: absolute;
+  gap: 300px;
+  top: 1000px;
+}
+menu .card-1 .card-1_right {
+  width: 474px;
+  margin-top: -150px;
+  padding-top: 150px;
+  padding-left: 10px;
+  padding-right: 20px;
+  box-shadow: -0.5px 0 32px 32px #dddddd;
+  height: 590px;
+}
+menu .card-1 .card-1_right a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1111px;
   margin: 0px auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(66, 64, 64, 0.3803921569);
+  border-radius: 10px;
+}
+
+.overflow {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.card_owerd {
+  width: 100%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
