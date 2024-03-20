@@ -239,12 +239,23 @@ input {
   color: rgb(77, 83, 60);
 }
 
+.border1 {
+  border-top: 2px solid rgba(33, 56, 66, 0.0956);
+  margin-bottom: 150px;
+}
+
 .p7 {
   margin-top: 20px;
   margin-bottom: 90px;
   font-size: 24px;
   font-family: "Poppins-400-1";
   color: rgb(77, 83, 60);
+}
+
+.p10 {
+  font-family: "Poppins-500";
+  color: rgb(77, 83, 60);
+  font-size: 24px;
 }
 
 .border {
@@ -368,6 +379,111 @@ main {
   padding: 33px 30px;
   border-radius: 10px;
   box-shadow: -32px 32px 32px 1.5px #dddddd;
+}
+
+footer {
+  position: relative;
+  top: 1200px;
+}
+footer .text_card {
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  margin-top: -180px;
+  box-shadow: 18.5px -32px 32px -18px rgba(0, 0, 0, 0.3294117647);
+  width: 1275px;
+  margin-left: -204px;
+  padding: 40px;
+}
+footer .p11 {
+  font-size: 60px;
+  margin-left: 204px;
+  font-family: "Poppins-700";
+  color: rgb(77, 83, 60);
+}
+footer .footer_bottom_top {
+  gap: 128px;
+}
+footer .footer_bottom_top a {
+  text-decoration: none;
+}
+
+.card_bottom {
+  margin-bottom: 100px;
+}
+
+.footer_bottom {
+  background-color: rgb(77, 83, 60);
+  height: 1020px;
+}
+.footer_bottom .footer_bottom_bottom {
+  margin-top: -170px;
+}
+.footer_bottom img {
+  width: 100%;
+  height: 100%;
+}
+.footer_bottom .footer_bottom_top {
+  position: absolute;
+  top: 400px;
+}
+.footer_bottom .p12 {
+  font-size: 14px;
+  color: rgb(182, 193, 151);
+  font-family: "Poppins-400";
+}
+.footer_bottom .p77 {
+  font-size: 14px;
+  color: rgb(182, 193, 151);
+  font-family: "Poppins-400";
+  text-decoration: none;
+}
+.footer_bottom .a2 {
+  font-size: 14px;
+  color: rgb(182, 193, 151);
+  font-family: "Poppins-400";
+  text-decoration: none;
+}
+.footer_bottom a {
+  font-family: "Poppins-700";
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer_bottom a:hover {
+  color: rgba(255, 255, 255, 0.6705882353);
+}
+.footer_bottom .p21 {
+  font-family: "Poppins-700";
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.border3 {
+  border: 1px solid rgb(93, 101, 68);
+  position: relative;
+  z-index: 5;
+  top: -350px;
+  width: 1200px;
+}
+
+.border4 {
+  border: 1px solid rgb(93, 101, 68);
+  position: relative;
+  z-index: 5;
+  top: -90px;
+  width: 1200px;
+}
+
+.footer_end1 {
+  margin-top: -50px;
+}
+
+.p77 {
+  font-size: 14px;
+  color: rgb(182, 193, 151);
+  font-family: "Poppins-400";
+  text-decoration: none;
 }
 
 .container {
